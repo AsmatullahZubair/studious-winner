@@ -11,6 +11,7 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.Color;
 
 public class FirstFrame extends JFrame {
 
@@ -46,6 +47,7 @@ public class FirstFrame extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 813, 489);
 		contentPane = new JPanel();
+		contentPane.setBackground(Color.GREEN);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
 		setContentPane(contentPane);
